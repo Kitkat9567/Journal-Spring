@@ -52,7 +52,8 @@ application-local.properties
 application-local.yml
 application-secret.properties
 application-secret.yml
-application.properties
+# Sensitive config - never commit!
+src/main/resources/application.properties
 *.env
 
 # OS files
