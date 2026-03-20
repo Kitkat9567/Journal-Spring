@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +19,41 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# VM crash logs
 hs_err_pid*
 replay_pid*
+
+# Maven build output
+target/
+
+# Gradle build output
+build/
+.gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse / STS
+.eclipse/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4
+
+# VS Code
+.vscode/
+
+# Spring Boot sensitive configs - NEVER commit these!
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
